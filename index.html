@@ -26,16 +26,36 @@
   <main id="main">
     <form id="survey-form">
       <!-- NAME -->
-      <label for="name">Name</label><br>
+      <label for="name" id="name-label">Name</label><br>
       <input type="text" id="name" name="name"><br>
 
       <!-- EMAIL -->
-      <label for="email">Email</label><br>
+      <label for="email" id="email-label">Email</label><br>
       <input type="email" id="email" name="email"><br>
 
       <!-- AGE -->
-      <label for="number">Age</label><br>
-      <input type="number" id="number" name="number" min="10" max="99">
+      <label for="number" id="number-label">Age</label><br>
+      <input type="number" id="number" name="number" min="10" max="99"><br>
+
+      <!-- ROLE-DROPDOWN -->
+      <label for="dropdown" id="role-dropdown">¿Qué opción describe mejor tu posición actual?</label><br>
+      <select id="dropdown" name="dropdown">
+        <option value="Estudiante"></option>
+        <option value="Profesional"></option>
+        <option value="Prefiero no decirlo"></option>
+        <option value="Otro"></option>
+      </select><br>
+
+      <!-- RADIO-BUTTONS -->
+      <p id="radio-descripcion">¿Recomendarias CodeCourse a tus amigos?</P><br>
+        <input type="radio" id="definitivamente" name="recomendacion" value="definitivamente">
+        <label for="definitivamente">Definitivamente</label><br>
+        <input type="radio" id="tal-vez" name="recomendacion" value="tal-vez">
+        <label for="tal-vez">Tal vez</label><br>
+        <input type="radio" id="no-estoy-seguro" name="recomendacion" value="no-estoy-seguro">
+        <label for="no-estoy-seguro">No estoy seguro</label><br>
+
+      
 
 
 

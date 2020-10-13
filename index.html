@@ -27,23 +27,24 @@
     <form id="survey-form">
       <!-- NAME -->
       <label for="name" id="name-label">Name</label><br>
-      <input type="text" id="name" name="name"><br>
+      <input type="text" id="name" name="name" placeholder="Nombre"><br>
 
       <!-- EMAIL -->
       <label for="email" id="email-label">Email</label><br>
-      <input type="email" id="email" name="email"><br>
+      <input type="email" id="email" name="email" placeholder="Email"><br>
 
       <!-- AGE -->
       <label for="number" id="number-label">Age</label><br>
-      <input type="number" id="number" name="number" min="10" max="99"><br>
+      <input type="number" id="number" name="number" min="10" max="99" placeholder="Edad"><br>
 
       <!-- ROLE-DROPDOWN -->
       <label for="dropdown" id="role-dropdown">¿Qué opción describe mejor tu posición actual?</label><br>
       <select id="dropdown" name="dropdown">
-        <option value="Estudiante"></option>
-        <option value="Profesional"></option>
-        <option value="Prefiero no decirlo"></option>
-        <option value="Otro"></option>
+        <option value="" disabled selected>Seleccione el puesto actual</option>
+        <option value="Estudiante">Estudiante</option>
+        <option value="Profesional">Profesional</option>
+        <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+        <option value="Otro">Otro</option>
       </select><br>
 
       <!-- RADIO-BUTTONS -->
@@ -55,14 +56,62 @@
         <input type="radio" id="no-estoy-seguro" name="recomendacion" value="no-estoy-seguro">
         <label for="no-estoy-seguro">No estoy seguro</label><br>
 
-      
+      <!-- FEATURE-DROPDOWN -->
+      <label for="dropdown-2" id="feature-dropdown">¿Qué sección de CodeCourse te gustó más?</label><br>
+      <select id="dropdown-2" name="dropdown-2">
+        <option value="" disabled selected>Seleccione una opcion</option>
+        <option value="Desafios">Desafios</option>
+        <option value="Proyectos">Proyectos</option>
+        <option value="Comunidad">Comunidad</option>
+        <option value="Open-Source">Open Source</option>
+      </select><br>
 
+      <!-- CHECKBOXES -->
+      <p id="check-descripcion">¿En qué te gustaría que mejoremos?</p><br>
 
+      <input type="checkbox" id="mejora-1" name="mejora-1" value="Front-end">
+      <label for="mejora-1">Proyectos de Front-End</label><br>
 
+      <input type="checkbox" id="mejora-2" name="mejora-2" value="Back-end">
+      <label for="mejora-2">Proyectos de Back-End</label><br>
 
+      <input type="checkbox" id="mejora-3" name="mejora-3" value="Visualizacion">
+      <label for="mejora-3">Visualización de Data</label><br>
+
+      <input type="checkbox" id="mejora-4" name="mejora-4" value="Desafios">
+      <label for="mejora-4">Desafíos</label><br>
+
+      <input type="checkbox" id="mejora-5" name="mejora-5" value="Open-Source">
+      <label for="mejora-5">Comunidad de Open-Source</label><br>
+
+      <input type="checkbox" id="mejora-6" name="mejora-6" value="Ayuda">
+      <label for="mejora-6">Mesas de ayuda</label><br>
+
+      <input type="checkbox" id="mejora-7" name="mejora-7" value="Videos">
+      <label for="mejora-7">Videos</label><br>
+
+      <input type="checkbox" id="mejora-8" name="mejora-8" value="Meetups">
+      <label for="mejora-8">Meetups</label><br>
+
+      <input type="checkbox" id="mejora-9" name="mejora-9" value="Wiki">
+      <label for="mejora-9">Wiki</label><br>
+
+      <input type="checkbox" id="mejora-10" name="mejora-10" value="Foro">
+      <label for="mejora-10">Foro</label><br>
+
+      <input type="checkbox" id="mejora-11" name="mejora-11" value="Cursos">
+      <label for="mejora-11">Cursos adicionales</label><br>
+
+      <!-- TEXT-AREA -->
+      <label for="review">¿Algun comentario o recomendación?</label><br>
+      <textarea id="review" name="review" rows="4" cols="50" placeholder="Escriba su comentario aquí..."></textarea><br>
+
+      <!-- SUBMIT BUTTON -->
+      <input type="submit" id="submit" value="Submit">
 
     </form>
   </main>
+
 </body>
 
 </html>

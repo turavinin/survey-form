@@ -1,0 +1,15 @@
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url(https://pixabay.com/get/53e9d6404e53b108feda8460da29317e1739dfec535171_1920.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: -500px;
+}
+
+
+
+

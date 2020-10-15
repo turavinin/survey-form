@@ -6,6 +6,7 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+
 body {
   background-color: #303C55;
   color: #ffffff;
@@ -33,7 +34,7 @@ body {
 
 #main {
   display: flex;
-  background-color: #0a192f;
+  background-color: #0a192fd0;
 }
 
 #survey-form {
@@ -320,16 +321,10 @@ textarea::placeholder {
 
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  
   #main {
     justify-content: center;
   }
-
 }
-
-
-
-
 
 
 

@@ -23,8 +23,6 @@ textarea {
   display: block;
   text-align: center;
   margin: 50px auto;
-
-  background-color: orchid;
 }
 
 #title {
@@ -35,6 +33,24 @@ textarea {
 #description {
   font-size: 1.5rem;
 }
+
+#main {
+  display: flex;
+  background-color: rgb(23, 9, 148);
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto 10px;
+}
+
+
+
+
+
+
+
 
 
 /*

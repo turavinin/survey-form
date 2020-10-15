@@ -30,18 +30,23 @@
       <!-- NAME -->
       <div class="name-div">
         <label for="name" id="name-label">Nombre</label><br>
-        <input type="text" id="name" name="name" placeholder="Ingrese su nombre"><br>
+        <input type="text" id="name" name="name" placeholder="  Ingrese su nombre"><br>
       </div>
 
       <!-- EMAIL -->
-      <label for="email" id="email-label">Email</label><br>
-      <input type="email" id="email" name="email" placeholder="Email"><br>
+      <div class="email-div">
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" name="email" placeholder=" Ingrese su email"><br>
+      </div>
 
       <!-- AGE -->
-      <label for="number" id="number-label">Age</label><br>
-      <input type="number" id="number" name="number" min="10" max="99" placeholder="Edad"><br>
+      <div class="age-div">
+        <label for="number" id="number-label">Edad</label><br>
+        <input type="number" id="number" name="number" min="10" max="99" placeholder=" Ingrese su edad"><br>
+     </div>
 
       <!-- ROLE-DROPDOWN -->
+      <div class="drop1-div">
       <label for="dropdown" id="role-dropdown">¿Qué opción describe mejor tu posición actual?</label><br>
       <select id="dropdown" name="dropdown">
         <option value="" disabled selected>Seleccione el puesto actual</option>
@@ -50,8 +55,10 @@
         <option value="Prefiero no decirlo">Prefiero no decirlo</option>
         <option value="Otro">Otro</option>
       </select><br>
+      </div>
 
       <!-- RADIO-BUTTONS -->
+      <div class="radio-div">
       <p id="radio-descripcion">¿Recomendarias CodeCourse a tus amigos?</P><br>
 
         <input type="radio" id="definitivamente" name="recomendacion" value="definitivamente">
@@ -62,8 +69,10 @@
 
         <input type="radio" id="no-estoy-seguro" name="recomendacion" value="no-estoy-seguro">
         <label for="no-estoy-seguro">No estoy seguro</label><br>
+      </div>
 
       <!-- FEATURE-DROPDOWN -->
+      <div class="feature-div">
       <label for="dropdown-2" id="feature-dropdown">¿Qué sección de CodeCourse te gustó más?</label><br>
       <select id="dropdown-2" name="dropdown-2">
         <option value="" disabled selected>Seleccione una opcion</option>
@@ -72,8 +81,11 @@
         <option value="Comunidad">Comunidad</option>
         <option value="Open-Source">Open Source</option>
       </select><br>
+      </div>
+      
 
       <!-- CHECKBOXES -->
+      <div class="check-div">
       <p id="check-descripcion">¿En qué te gustaría que mejoremos?</p><br>
 
         <input type="checkbox" id="mejora-1" name="mejora-1" value="Front-end">
@@ -108,13 +120,18 @@
 
         <input type="checkbox" id="mejora-11" name="mejora-11" value="Cursos">
         <label for="mejora-11">Cursos adicionales</label><br>
+      </div>
 
       <!-- TEXT-AREA -->
-      <label for="review">¿Algun comentario o recomendación?</label><br>
-      <textarea id="review" name="review" rows="4" cols="50" placeholder="Escriba su comentario aquí..."></textarea><br>
+      <div class="area-div">
+        <label for="review">¿Algun comentario o recomendación?</label><br>
+        <textarea id="review" name="review" rows="4" cols="50" placeholder="Escriba su comentario aquí..."></textarea><br>
+      </div>
 
       <!-- SUBMIT BUTTON -->
-      <input type="submit" id="submit" value="Submit">
+      <div class="button-div">
+        <input type="submit" id="submit" value="Submit">
+      </div>
 
     </form>
   </main>

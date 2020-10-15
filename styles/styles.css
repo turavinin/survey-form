@@ -42,8 +42,98 @@ textarea {
 #survey-form {
   display: flex;
   flex-direction: column;
-  margin: auto 10px;
+  align-items: flex-start;
+  margin: 20px 10px;
+  
 }
+
+            /* NAME INPUT */
+
+.name-div {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#name-label {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+#name {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  border: 1px solid #8a8cfa;
+  line-height: 10px;
+  width: 98%;
+  max-width: 98%;
+  height: 25px;
+}
+
+#name::placeholder {
+  font-size: 1.4rem;
+}
+
+            /* EMAIL INPUT */
+
+.email-div {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#email-label {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+#email {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  border: 1px solid #8a8cfa;
+  line-height: 10px;
+  width: 100%;
+  max-width: 98%;
+  height: 25px;
+}
+
+#email::placeholder {
+  font-size: 1.4rem;
+}
+
+
+            /* EDAD INPUT */
+
+.age-div {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#number-label {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+#number {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  border: 1px solid #8a8cfa;
+  line-height: 10px;
+  width: 100%;
+  max-width: 98%;
+  height: 25px;
+}
+
+#number::placeholder {
+  font-size: 1.4rem;
+}
+
+
+
 
 
 
@@ -55,29 +145,14 @@ textarea {
 
 /*
 
-#header {
-  justify-content: center;
-  padding: 50px;
-  background-color: blueviolet;
-}
 
-#title {
-  font-size: 4rem;
-  text-align: center;
-  line-height: 60px;
-}
 
-#description {
-  font-size: 1.3rem;
-  text-align: center;
-  font-style: italic;
-}
-
-#main {
+.name-div {
   display: flex;
-  width: 100%;
-  max-width: 100%;
+  flex-direction: column;
 }
+
+
 
 
 

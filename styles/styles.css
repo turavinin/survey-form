@@ -11,6 +11,11 @@ body {
   background-color: #303C55;
   color: #ffffff;
   width: 100%;
+
+  background-image: url(https://pixabay.com/get/51e3d442435ab108feda8460da29317e1738d7e0545879_1920.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: -200px;
 }
 
 
@@ -19,7 +24,10 @@ body {
 #header {
   display: block;
   text-align: center;
-  margin: 50px auto;
+  margin-bottom: 50px auto;
+
+  background-color:#191331e8;
+  padding: 45px 0 45px 0;
 }
 
 #title {
@@ -306,9 +314,9 @@ textarea::placeholder {
   width: 100%;
   max-width: 100%;
   height: 40px;
-  background-color: #50a591;
+  background-color: #35695d;
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -321,6 +329,13 @@ textarea::placeholder {
 
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+  }
+  
   #main {
     justify-content: center;
   }
@@ -332,19 +347,22 @@ textarea::placeholder {
 
 @media only screen and (min-width: 960px) {
 
-  #header {
-    margin-bottom: 10px;
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
   }
 
 
   #main {
     justify-content: center;
-    background-color: #303C55;
+    background-color: #191331e8;
   }
 
   #survey-form {
-    background-color: #0a192f;
+    background-color: #0a192fce;
     padding: 20px;
+    border: 1px solid #0a192f;
 
   }
 

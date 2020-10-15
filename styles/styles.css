@@ -1,14 +1,41 @@
 
+/* GLOBAL */
+
 html {
   font-size: 10px;
+  font-family:  "Noto Sans JP", sans-serif;
 }
 
 body {
-  background-image: url(https://pixabay.com/get/53e9d6404e53b108feda8460da29317e1739dfec535171_1920.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position-x: -500px;
+  display: block;
+  background-color: #303C55;
+  color: #ffffff;
+  width: 100vw;
 }
+
+
+/* MOBILE FIRST */
+
+#header {
+  justify-content: center;
+  padding: 50px;
+  background-color: blueviolet;
+}
+
+#title {
+  font-size: 4rem;
+  text-align: center;
+  line-height: 60px;
+}
+
+#description {
+  font-size: 1.3rem;
+  text-align: center;
+  font-style: italic;
+}
+
+
+
 
 
 

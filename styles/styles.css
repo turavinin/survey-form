@@ -3,18 +3,41 @@
 
 html {
   font-size: 10px;
-  font-family:  "Noto Sans JP", sans-serif;
+  font-family: sans-serif;
 }
 
 body {
-  display: block;
   background-color: #303C55;
   color: #ffffff;
-  width: 100vw;
+  width: 100%;
+}
+
+textarea {
+  width: 98%;
+  max-width: 100%;
+}
+
+/* MOBILE FIRST */
+
+#header {
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+
+  background-color: orchid;
+}
+
+#title {
+  font-size: 3.5rem;
+  line-height: 45px;
+}
+
+#description {
+  font-size: 1.5rem;
 }
 
 
-/* MOBILE FIRST */
+/*
 
 #header {
   justify-content: center;
@@ -34,6 +57,105 @@ body {
   font-style: italic;
 }
 
+#main {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+
+
+
+
+/*
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin-left: 10px;
+}
+
+.name-div {
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  padding-bottom: 10px;
+}
+
+#name-label {
+  font-size: 1.6rem;
+  margin-top: 30px;
+}
+
+#name {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  line-height: 10px;
+  width: 98%;
+  max-width: 98%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+textarea {
+  width: 98%;
+  max-width: 100%;
+}
+
+
+/*
+
+#name-label {
+  font-size: 1.6rem;
+  margin-top: 20px;
+
+  background-color: brown;
+}
+
+#name {
+  line-height: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+#review {
+  width: 100%;
+  max-width: 100%;
+}
 
 
 
